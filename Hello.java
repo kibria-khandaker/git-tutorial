@@ -2,14 +2,9 @@ public class Hello{
 	public static void main(String[] args) {
 		System.out.println("Sublime Text is Awesome...");
 		
-		greeting();
+		message();
 	}
-	public static void greeting() {
-		System.out.println("Git for kibria khandaker Branch A");
+	public static void message() {
+		System.out.println("from anotherBranch_C");
 	}
-	public static int sqr(int x) {
-		return x*x;
-	}
-
-
 }
